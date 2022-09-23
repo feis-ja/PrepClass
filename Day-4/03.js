@@ -1,5 +1,5 @@
 function tahunKabisat(int) {
-    if(int % 400 == 0 && int % 4 == 0 ){
+    if(int % 400 == 0){
         return "Kabisat"
     }else if (int % 100 == 0) {
         return "Bukan kabisat"
